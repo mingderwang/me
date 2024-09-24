@@ -1,7 +1,7 @@
 {
   "name": "me",
   "description": "only for 4337 + passkey",
-  "version": "v0.0.1",
+  "version": "v0.0.2",
   "module": "index.ts",
   "type": "module",
   "scripts": {
@@ -26,7 +26,8 @@
     "@zerodev/sdk": "^5.3.13",
     "@zerodev/session-key": "^5.4.0",
     "@zerodev/weighted-ecdsa-validator": "^5.3.0",
+    "ethers": "^6.13.2",
     "permissionless": ">=0.1.18 <=0.1.29",
-    "viem": "^2.9.27"
+    "viem": "^2.21.14"
   }
 }
