@@ -1,11 +1,12 @@
 {
   "name": "me",
   "description": "only for 4337 + passkey",
-  "version": "v0.0.2",
+  "version": "v0.1.0",
   "module": "index.ts",
   "type": "module",
   "scripts": {
     "dev": "bun run --watch index.ts"
+    "example": "bun run --watch example.ts"
   },
   "devDependencies": {
     "@types/bun": "latest",
@@ -26,7 +27,7 @@
     "@zerodev/sdk": "^5.3.13",
     "@zerodev/session-key": "^5.4.0",
     "@zerodev/weighted-ecdsa-validator": "^5.3.0",
-    "ethers": "^6.13.2",
+    "ethers": "^5.3.2",
     "permissionless": ">=0.1.18 <=0.1.29",
     "viem": "^2.21.14"
   }
