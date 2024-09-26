@@ -7,7 +7,7 @@ const hash = await bundlerClient.sendUserOperation({
     to: '0x70997970c51812dc3a010c7d01b50e0d17dc79c8',
     value: parseGwei('1')
   }],
-  maxFeePerGas: 251334054321n,
+  maxFeePerGas: 398755587849n,
   maxPriorityFeePerGas: 2000000000n,
 })
 

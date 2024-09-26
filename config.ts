@@ -18,7 +18,7 @@ export const account = await toCoinbaseSmartAccount({
 })
  
 const paymasterClient = createPaymasterClient({ 
-  transport: http('https://public.pimlico.io/v2/11155111/rpc'), 
+  transport: http(process.env.PAYMASTER_RPC), 
 }) 
  
 export const bundlerClient = createBundlerClient({
